@@ -14,7 +14,7 @@ import (
 )
 
 type loc struct {
-	Value string `xm;:"loc"`
+	Value string `xml:"loc"`
 }
 
 type urlSet struct {
